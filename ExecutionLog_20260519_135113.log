@@ -1,0 +1,172 @@
+2026-05-19 13:51:13 [INFO   ] StorymakerExistingUserFlowTest: Execution directory: C:\Users\MIKO\Documents\Miko3 Automation\reports\20260519_135113
+2026-05-19 13:51:13 [INFO   ] StorymakerExistingUserFlowTest: Connecting to device via ADB...
+2026-05-19 13:51:13 [INFO   ] src.drivers.adb_utils: ADB binary validated: adb
+2026-05-19 13:51:13 [INFO   ] StorymakerExistingUserFlowTest: Initializing test: StorymakerExistingUserFlowTest
+2026-05-19 13:51:13 [INFO   ] src.utils.tts_utils: ✓ TTS output directory: audio
+2026-05-19 13:51:15 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 13:51:15 [INFO   ] framework.base.base_talent: STARTING TEST: Storymaker (com.miko.story_maker)
+2026-05-19 13:51:15 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 13:51:15 [INFO   ] framework.base.base_talent: --- Setup Phase ---
+2026-05-19 13:51:15 [INFO   ] framework.base.base_talent:   [Step 1] Screen management
+2026-05-19 13:51:15 [INFO   ] src.drivers.adb_utils: Swiping (640,576) -> (640,144) in 300ms
+2026-05-19 13:51:18 [INFO   ] src.drivers.adb_utils: Setting screen brightness to 127
+2026-05-19 13:51:18 [INFO   ] src.drivers.adb_utils: Setting power mode to Stay On
+2026-05-19 13:51:20 [INFO   ] framework.base.base_talent:   [Step 2] Navigate to Home
+2026-05-19 13:51:24 [INFO   ] framework.base.base_talent:   [Step 3] Open Apps Drawer
+2026-05-19 13:51:24 [INFO   ] framework.base.base_talent: Using coordinate-based navigation for Apps drawer
+2026-05-19 13:51:24 [INFO   ] framework.base.base_talent:   Tapping pre-click 1: (1207, 644)
+2026-05-19 13:51:24 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 644)
+2026-05-19 13:51:28 [INFO   ] framework.base.base_talent:   [Step 4] Force stop talent
+2026-05-19 13:51:28 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.story_maker
+2026-05-19 13:51:29 [INFO   ] framework.base.base_talent:   [Step 5] Launch talent
+2026-05-19 13:51:29 [INFO   ] framework.base.base_talent: Clearing logcat buffer before launch
+2026-05-19 13:51:29 [INFO   ] framework.base.base_talent: Using click-based launching at [933, 212]
+2026-05-19 13:51:30 [INFO   ] src.modules.talent_discovery: Clicking app icon at (933, 212)
+2026-05-19 13:51:30 [INFO   ] src.drivers.adb_utils: Tapping at (933, 212)
+2026-05-19 13:51:35 [INFO   ] src.drivers.adb_utils: Waiting for activity containing 'com.miko.story_maker'...
+2026-05-19 13:51:35 [INFO   ] src.drivers.adb_utils: Activity found: com.miko.story_maker/.MainActivity
+2026-05-19 13:51:35 [INFO   ] src.modules.talent_discovery: Successfully launched com.miko.story_maker via click
+2026-05-19 13:51:35 [INFO   ] framework.base.base_talent: Launched with extras: {'APP_ID': '121', 'INTENT': 'create_story'}
+2026-05-19 13:51:47 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_5_after_launch_1779178897.png
+2026-05-19 13:51:47 [INFO   ] framework.base.base_talent:   [Step 6] Verify launch
+2026-05-19 13:51:48 [INFO   ] framework.base.base_talent: --- Execute Phase ---
+2026-05-19 13:51:48 [INFO   ] __main__: Executing scenario: existing_user_flow
+2026-05-19 13:51:48 [INFO   ] framework.base.base_talent:   [Step 7] Launch Verification
+2026-05-19 13:51:48 [INFO   ] src.drivers.adb_utils: Waiting for activity containing 'com.miko.story_maker'...
+2026-05-19 13:51:48 [INFO   ] src.drivers.adb_utils: Activity found: com.miko.story_maker/.MainActivity
+2026-05-19 13:51:48 [INFO   ] framework.base.base_talent:   [Step 8] Stabilization
+2026-05-19 13:51:48 [INFO   ] __main__: Waiting 5 seconds for talent to stabilize...
+2026-05-19 13:51:53 [INFO   ] framework.base.base_talent:   [Step 9] AI Disclaimer
+2026-05-19 13:52:11 [INFO   ] __main__: AI Disclaimer not detected, skipping AI Disclaimer step
+2026-05-19 13:52:11 [INFO   ] framework.base.base_talent:   [Step 10] Open Existing Story
+2026-05-19 13:52:11 [INFO   ] src.drivers.adb_utils: Tapping at (590, 370)
+2026-05-19 13:52:20 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_10_existing_story_opened_1779178937.png
+2026-05-19 13:52:20 [INFO   ] framework.base.base_talent:   [Step 11] Swipe Forward
+2026-05-19 13:52:20 [INFO   ] __main__: Forward swipe 1/8
+2026-05-19 13:52:20 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:26 [INFO   ] __main__: Forward swipe 2/8
+2026-05-19 13:52:26 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:32 [INFO   ] __main__: Forward swipe 3/8
+2026-05-19 13:52:32 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:38 [INFO   ] __main__: Forward swipe 4/8
+2026-05-19 13:52:38 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:44 [INFO   ] __main__: Forward swipe 5/8
+2026-05-19 13:52:44 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:50 [INFO   ] __main__: Forward swipe 6/8
+2026-05-19 13:52:50 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:52:55 [INFO   ] __main__: Forward swipe 7/8
+2026-05-19 13:52:55 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:53:01 [INFO   ] __main__: Forward swipe 8/8
+2026-05-19 13:53:01 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:53:10 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_11_story_forward_end_1779178986.png
+2026-05-19 13:53:10 [INFO   ] framework.base.base_talent:   [Step 12] Like Story
+2026-05-19 13:53:10 [INFO   ] src.drivers.adb_utils: Tapping at (325, 525)
+2026-05-19 13:53:21 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_12_story_liked_1779178995.png
+2026-05-19 13:53:21 [INFO   ] framework.base.base_talent:   [Step 13] Swipe Backward
+2026-05-19 13:53:21 [INFO   ] __main__: Backward swipe 1/8
+2026-05-19 13:53:21 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:27 [INFO   ] __main__: Backward swipe 2/8
+2026-05-19 13:53:27 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:32 [INFO   ] __main__: Backward swipe 3/8
+2026-05-19 13:53:32 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:38 [INFO   ] __main__: Backward swipe 4/8
+2026-05-19 13:53:38 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:43 [INFO   ] __main__: Backward swipe 5/8
+2026-05-19 13:53:43 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:48 [INFO   ] __main__: Backward swipe 6/8
+2026-05-19 13:53:48 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:53:54 [INFO   ] __main__: Backward swipe 7/8
+2026-05-19 13:53:54 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:54:00 [INFO   ] __main__: Backward swipe 8/8
+2026-05-19 13:54:00 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:54:09 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_13_story_backward_end_1779179045.png
+2026-05-19 13:54:09 [INFO   ] framework.base.base_talent:   [Step 14] Close Storybook
+2026-05-19 13:54:09 [INFO   ] src.drivers.adb_utils: Tapping at (40, 53)
+2026-05-19 13:54:20 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_14_storybook_closed_1779179054.png
+2026-05-19 13:54:20 [INFO   ] framework.base.base_talent:   [Step 15] Favourite Tab
+2026-05-19 13:54:20 [INFO   ] src.drivers.adb_utils: Tapping at (812, 62)
+2026-05-19 13:54:27 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_15_favourite_tab_1779179065.png
+2026-05-19 13:54:27 [INFO   ] framework.base.base_talent:   [Step 16] Open Story from Favourites
+2026-05-19 13:54:27 [INFO   ] src.drivers.adb_utils: Tapping at (191, 383)
+2026-05-19 13:54:32 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_16_favourite_story_opened_1779179071.png
+2026-05-19 13:54:32 [INFO   ] framework.base.base_talent:   [Step 17] Swipe Forward
+2026-05-19 13:54:32 [INFO   ] __main__: Forward swipe 1/8
+2026-05-19 13:54:32 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:36 [INFO   ] __main__: Forward swipe 2/8
+2026-05-19 13:54:36 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:39 [INFO   ] __main__: Forward swipe 3/8
+2026-05-19 13:54:39 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:43 [INFO   ] __main__: Forward swipe 4/8
+2026-05-19 13:54:43 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:47 [INFO   ] __main__: Forward swipe 5/8
+2026-05-19 13:54:47 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:50 [INFO   ] __main__: Forward swipe 6/8
+2026-05-19 13:54:50 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:54 [INFO   ] __main__: Forward swipe 7/8
+2026-05-19 13:54:54 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:54:58 [INFO   ] __main__: Forward swipe 8/8
+2026-05-19 13:54:58 [INFO   ] src.drivers.adb_utils: Swiping (1100,360) -> (200,360) in 250ms
+2026-05-19 13:55:04 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_17_story_forward_end_1779179101.png
+2026-05-19 13:55:04 [INFO   ] framework.base.base_talent:   [Step 18] Like Story
+2026-05-19 13:55:04 [INFO   ] src.drivers.adb_utils: Tapping at (325, 525)
+2026-05-19 13:55:10 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_18_story_liked_1779179107.png
+2026-05-19 13:55:10 [INFO   ] framework.base.base_talent:   [Step 19] Swipe Backward
+2026-05-19 13:55:10 [INFO   ] __main__: Backward swipe 1/8
+2026-05-19 13:55:10 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:13 [INFO   ] __main__: Backward swipe 2/8
+2026-05-19 13:55:13 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:17 [INFO   ] __main__: Backward swipe 3/8
+2026-05-19 13:55:17 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:20 [INFO   ] __main__: Backward swipe 4/8
+2026-05-19 13:55:20 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:24 [INFO   ] __main__: Backward swipe 5/8
+2026-05-19 13:55:24 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:28 [INFO   ] __main__: Backward swipe 6/8
+2026-05-19 13:55:28 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:31 [INFO   ] __main__: Backward swipe 7/8
+2026-05-19 13:55:31 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:35 [INFO   ] __main__: Backward swipe 8/8
+2026-05-19 13:55:35 [INFO   ] src.drivers.adb_utils: Swiping (200,360) -> (1100,360) in 250ms
+2026-05-19 13:55:40 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_19_story_backward_end_1779179138.png
+2026-05-19 13:55:40 [INFO   ] framework.base.base_talent:   [Step 20] Close Storybook
+2026-05-19 13:55:40 [INFO   ] src.drivers.adb_utils: Tapping at (40, 53)
+2026-05-19 13:55:46 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_20_storybook_closed_1779179143.png
+2026-05-19 13:55:46 [INFO   ] framework.base.base_talent:   [Step 21] Story Book Tab
+2026-05-19 13:55:46 [INFO   ] src.drivers.adb_utils: Tapping at (476, 77)
+2026-05-19 13:55:56 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_21_story_book_tab_1779179150.png
+2026-05-19 13:55:56 [INFO   ] framework.base.base_talent:   [Step 22] Delete Story Flow
+2026-05-19 13:55:56 [INFO   ] src.drivers.adb_utils: Tapping at (730, 612)
+2026-05-19 13:56:03 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_22_delete_dialog_opened_1779179159.png
+2026-05-19 13:56:03 [INFO   ] src.drivers.adb_utils: Tapping at (908, 642)
+2026-05-19 13:56:11 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_22_delete_denied_1779179167.png
+2026-05-19 13:56:11 [INFO   ] __main__: Delete denied — dialog dismissed
+2026-05-19 13:56:11 [INFO   ] src.drivers.adb_utils: Tapping at (730, 612)
+2026-05-19 13:56:14 [INFO   ] src.drivers.adb_utils: Tapping at (1114, 630)
+2026-05-19 13:56:19 [INFO   ] framework.base.base_talent:   [Step 23] Stories Left Check
+2026-05-19 13:56:19 [INFO   ] src.drivers.adb_utils: Tapping at (1216, 66)
+2026-05-19 13:56:33 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_23_stories_left_popup_1779179185.png
+2026-05-19 13:56:33 [INFO   ] src.drivers.adb_utils: Tapping at (186, 185)
+2026-05-19 13:56:39 [INFO   ] src.drivers.adb_utils: Tapping at (71, 73)
+2026-05-19 13:56:45 [INFO   ] framework.base.base_talent:   [Step 24] Exit Sequence
+2026-05-19 13:56:45 [INFO   ] src.drivers.adb_utils: Tapping at (71, 73)
+2026-05-19 13:56:55 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_24_exit_dialog_1_1779179211.png
+2026-05-19 13:56:55 [INFO   ] src.drivers.adb_utils: Tapping at (892, 620)
+2026-05-19 13:57:06 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_24_exit_no_pressed_1779179220.png
+2026-05-19 13:57:06 [INFO   ] src.drivers.adb_utils: Tapping at (71, 73)
+2026-05-19 13:57:15 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_24_exit_dialog_2_1779179231.png
+2026-05-19 13:57:15 [INFO   ] src.drivers.adb_utils: Tapping at (1114, 630)
+2026-05-19 13:57:23 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_24_exit_yes_pressed_1779179241.png
+2026-05-19 13:57:23 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-19 13:57:30 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_135113\Screenshots\Storymaker_24_returned_to_root_1779179248.png
+2026-05-19 13:57:30 [INFO   ] framework.base.base_talent: --- Verify Phase ---
+2026-05-19 13:57:30 [INFO   ] framework.base.base_talent:   [Step 25] Final Verification
+2026-05-19 13:57:32 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.story_maker
+2026-05-19 13:57:32 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-19 13:57:35 [INFO   ] framework.base.base_talent: Teardown complete for Storymaker
+2026-05-19 13:57:36 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 13:57:36 [INFO   ] framework.base.base_talent: TEST PASSED: Storymaker (383.2s) — 24/25 steps passed, 0 steps failed
+2026-05-19 13:57:36 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 13:57:36 [INFO   ] StorymakerExistingUserFlowTest: Generating standalone HTML report...
+2026-05-19 13:57:37 [INFO   ] framework.reporter.html_report: Report generated: reports\20260519_135113\AutomationReport_20260519_135113.html
+2026-05-19 13:57:37 [INFO   ] framework.reporter.html_report: Generating PDF report...
+2026-05-19 13:57:40 [INFO   ] framework.reporter.html_report: PDF Report generated: reports\20260519_135113\AutomationReport_20260519_135113.pdf
