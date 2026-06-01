@@ -1,0 +1,136 @@
+2026-05-19 14:13:08 [INFO   ] MyAdventureBookExistingUserFlowTest: Execution directory: C:\Users\MIKO\Documents\Miko3 Automation\reports\20260519_141308
+2026-05-19 14:13:08 [INFO   ] MyAdventureBookExistingUserFlowTest: Connecting to device via ADB...
+2026-05-19 14:13:08 [INFO   ] src.drivers.adb_utils: ADB binary validated: adb
+2026-05-19 14:13:08 [INFO   ] MyAdventureBookExistingUserFlowTest: Initializing test: MyAdventureBookExistingUserFlowTest
+2026-05-19 14:13:08 [INFO   ] src.utils.tts_utils: ✓ TTS output directory: audio
+2026-05-19 14:13:09 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 14:13:09 [INFO   ] framework.base.base_talent: STARTING TEST: My Adventure Book (com.miko.story_maker)
+2026-05-19 14:13:09 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 14:13:09 [INFO   ] framework.base.base_talent: --- Setup Phase ---
+2026-05-19 14:13:09 [INFO   ] framework.base.base_talent:   [Step 1] Screen management
+2026-05-19 14:13:10 [INFO   ] src.drivers.adb_utils: Swiping (640,576) -> (640,144) in 300ms
+2026-05-19 14:13:13 [INFO   ] src.drivers.adb_utils: Setting screen brightness to 127
+2026-05-19 14:13:13 [INFO   ] src.drivers.adb_utils: Setting power mode to Stay On
+2026-05-19 14:13:15 [INFO   ] framework.base.base_talent:   [Step 2] Navigate to Home
+2026-05-19 14:13:18 [INFO   ] framework.base.base_talent:   [Step 3] Open Apps Drawer
+2026-05-19 14:13:18 [INFO   ] framework.base.base_talent: Using coordinate-based navigation for Apps drawer
+2026-05-19 14:13:18 [INFO   ] framework.base.base_talent:   Tapping pre-click 1: (1207, 644)
+2026-05-19 14:13:18 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 644)
+2026-05-19 14:13:22 [INFO   ] framework.base.base_talent:   [Step 4] Force stop talent
+2026-05-19 14:13:22 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.story_maker
+2026-05-19 14:13:23 [INFO   ] framework.base.base_talent:   [Step 5] Launch talent
+2026-05-19 14:13:23 [INFO   ] framework.base.base_talent: Clearing logcat buffer before launch
+2026-05-19 14:13:23 [INFO   ] framework.base.base_talent: Using click-based launching at [933, 212]
+2026-05-19 14:13:24 [INFO   ] src.modules.talent_discovery: Clicking app icon at (933, 212)
+2026-05-19 14:13:24 [INFO   ] src.drivers.adb_utils: Tapping at (933, 212)
+2026-05-19 14:13:28 [INFO   ] src.drivers.adb_utils: Waiting for activity containing 'com.miko.story_maker'...
+2026-05-19 14:13:29 [INFO   ] src.drivers.adb_utils: Activity found: com.miko.story_maker/.MainActivity
+2026-05-19 14:13:29 [INFO   ] src.modules.talent_discovery: Successfully launched com.miko.story_maker via click
+2026-05-19 14:13:29 [INFO   ] framework.base.base_talent: Launched with extras: {'APP_ID': '121', 'INTENT': 'create_story'}
+2026-05-19 14:13:41 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_5_after_launch_1779180211.png
+2026-05-19 14:13:41 [INFO   ] framework.base.base_talent:   [Step 6] Verify launch
+2026-05-19 14:13:41 [INFO   ] framework.base.base_talent: --- Execute Phase ---
+2026-05-19 14:13:41 [INFO   ] __main__: Starting My Adventure Book Existing User Flow
+2026-05-19 14:13:41 [INFO   ] framework.base.base_talent:   [Step 7] Launch verification
+2026-05-19 14:13:41 [INFO   ] src.drivers.adb_utils: Waiting for activity containing 'com.miko.story_maker'...
+2026-05-19 14:13:42 [INFO   ] src.drivers.adb_utils: Activity found: com.miko.story_maker/.MainActivity
+2026-05-19 14:13:42 [INFO   ] framework.base.base_talent:   [Step 8] Open My Adventure
+2026-05-19 14:13:42 [INFO   ] src.drivers.adb_utils: Tapping at (643, 79)
+2026-05-19 14:13:52 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_8_my_adventure_opened_1779180229.png
+2026-05-19 14:13:52 [INFO   ] framework.base.base_talent:   [Step 9] Open Stories Left
+2026-05-19 14:13:52 [INFO   ] src.drivers.adb_utils: Tapping at (1215, 58)
+2026-05-19 14:14:01 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_9_stories_left_1779180235.png
+2026-05-19 14:14:01 [INFO   ] __main__: Stories Left popup classification: max user (red MAX pixels=6931, ratio=0.271)
+2026-05-19 14:14:01 [INFO   ] framework.base.base_talent:   [Step 10] Close Stories Left
+2026-05-19 14:14:01 [INFO   ] src.drivers.adb_utils: Tapping at (198, 186)
+2026-05-19 14:14:11 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_10_stories_left_closed_1779180244.png
+2026-05-19 14:14:11 [INFO   ] framework.base.base_talent:   [Step 11] Create your own story
+2026-05-19 14:14:11 [INFO   ] src.drivers.adb_utils: Tapping at (208, 582)
+2026-05-19 14:14:22 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_11_create_story_1779180255.png
+2026-05-19 14:14:22 [INFO   ] framework.base.base_talent:   [Step 12] Choose story progression
+2026-05-19 14:14:22 [INFO   ] src.drivers.adb_utils: Tapping at (1159, 599)
+2026-05-19 14:14:29 [INFO   ] src.drivers.adb_utils: Tapping at (1159, 599)
+2026-05-19 14:14:35 [INFO   ] src.drivers.adb_utils: Tapping at (1159, 599)
+2026-05-19 14:14:43 [INFO   ] src.drivers.adb_utils: Tapping at (629, 648)
+2026-05-19 14:14:48 [INFO   ] framework.base.base_talent:   [Step 13] Wait for story building
+2026-05-19 14:16:57 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_13_story_built_1779180413.png
+2026-05-19 14:16:57 [INFO   ] framework.base.base_talent:   [Step 14] Open existing story
+2026-05-19 14:16:57 [INFO   ] src.drivers.adb_utils: Tapping at (612, 385)
+2026-05-19 14:17:05 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_14_existing_story_opened_1779180422.png
+2026-05-19 14:17:05 [INFO   ] framework.base.base_talent:   [Step 15] Swipe forward through story
+2026-05-19 14:17:05 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:12 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:19 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:24 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:29 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:35 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:40 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:45 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:17:51 [INFO   ] framework.base.base_talent:   [Step 16] Like Story
+2026-05-19 14:17:51 [INFO   ] src.drivers.adb_utils: Tapping at (952, 520)
+2026-05-19 14:18:00 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_16_story_liked_1779180475.png
+2026-05-19 14:18:00 [INFO   ] framework.base.base_talent:   [Step 17] Swipe backward through story
+2026-05-19 14:18:00 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:06 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:11 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:16 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:21 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:26 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:31 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:36 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:18:42 [INFO   ] framework.base.base_talent:   [Step 18] Close storybook
+2026-05-19 14:18:42 [INFO   ] src.drivers.adb_utils: Tapping at (52, 56)
+2026-05-19 14:18:52 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_18_storybook_closed_1779180527.png
+2026-05-19 14:18:52 [INFO   ] framework.base.base_talent:   [Step 19] Click on Favourites
+2026-05-19 14:18:52 [INFO   ] src.drivers.adb_utils: Tapping at (819, 95)
+2026-05-19 14:18:56 [INFO   ] framework.base.base_talent:   [Step 20] Open Story from Favourites
+2026-05-19 14:18:56 [INFO   ] src.drivers.adb_utils: Tapping at (191, 383)
+2026-05-19 14:19:02 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_20_favourite_story_opened_1779180540.png
+2026-05-19 14:19:02 [INFO   ] framework.base.base_talent:   [Step 21] Swipe forward through story
+2026-05-19 14:19:02 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:06 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:10 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:13 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:17 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:21 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:25 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:29 [INFO   ] src.drivers.adb_utils: Swiping (860,199) -> (360,186) in 500ms
+2026-05-19 14:19:33 [INFO   ] framework.base.base_talent:   [Step 22] Swipe backward through story
+2026-05-19 14:19:33 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:36 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:40 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:44 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:47 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:51 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:55 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:19:58 [INFO   ] src.drivers.adb_utils: Swiping (200,380) -> (1100,360) in 250ms
+2026-05-19 14:20:02 [INFO   ] framework.base.base_talent:   [Step 23] Close storybook
+2026-05-19 14:20:02 [INFO   ] src.drivers.adb_utils: Tapping at (52, 56)
+2026-05-19 14:20:07 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_23_storybook_closed_1779180605.png
+2026-05-19 14:20:07 [INFO   ] framework.base.base_talent:   [Step 24] Story Book Tab
+2026-05-19 14:20:07 [INFO   ] src.drivers.adb_utils: Tapping at (648, 72)
+2026-05-19 14:20:16 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_24_story_book_tab_1779180612.png
+2026-05-19 14:20:16 [INFO   ] framework.base.base_talent:   [Step 25] Verify activity before exit
+2026-05-19 14:20:16 [INFO   ] framework.base.base_talent:   [Step 26] Exit Sequence
+2026-05-19 14:20:16 [INFO   ] src.drivers.adb_utils: Tapping at (71, 73)
+2026-05-19 14:20:25 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_26_exit_dialog_1_1779180621.png
+2026-05-19 14:20:25 [INFO   ] src.drivers.adb_utils: Tapping at (892, 620)
+2026-05-19 14:20:34 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_26_exit_no_pressed_1779180629.png
+2026-05-19 14:20:34 [INFO   ] src.drivers.adb_utils: Tapping at (71, 73)
+2026-05-19 14:20:41 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_26_exit_dialog_2_1779180638.png
+2026-05-19 14:20:41 [INFO   ] src.drivers.adb_utils: Tapping at (1114, 630)
+2026-05-19 14:20:48 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_26_exit_yes_pressed_1779180646.png
+2026-05-19 14:20:48 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-19 14:20:56 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_141308\Screenshots\My Adventure Book_26_returned_to_root_1779180653.png
+2026-05-19 14:20:56 [INFO   ] framework.base.base_talent: --- Verify Phase ---
+2026-05-19 14:20:56 [INFO   ] framework.base.base_talent:   [Step 27] Verify no crashes
+2026-05-19 14:20:58 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.story_maker
+2026-05-19 14:20:58 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-19 14:21:00 [INFO   ] framework.base.base_talent: Teardown complete for My Adventure Book
+2026-05-19 14:21:02 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 14:21:02 [INFO   ] framework.base.base_talent: TEST PASSED: My Adventure Book (474.0s) — 27/27 steps passed, 0 steps failed
+2026-05-19 14:21:02 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 14:21:02 [INFO   ] MyAdventureBookExistingUserFlowTest: Generating standalone HTML report...
+2026-05-19 14:21:02 [INFO   ] framework.reporter.html_report: Report generated: reports\20260519_141308\AutomationReport_20260519_141308.html
+2026-05-19 14:21:02 [INFO   ] framework.reporter.html_report: Generating PDF report...
+2026-05-19 14:21:07 [INFO   ] framework.reporter.html_report: PDF Report generated: reports\20260519_141308\AutomationReport_20260519_141308.pdf

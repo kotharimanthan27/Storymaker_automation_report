@@ -11,52 +11,15 @@
       color: #1f2937;
       background: #f5f7fb;
     }
-
-    body {
-      margin: 0;
-      padding: 32px;
-    }
-
-    main {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-
-    h1 {
-      margin: 0 0 8px;
-      font-size: 32px;
-      line-height: 1.2;
-    }
-
-    p {
-      margin: 0 0 24px;
-      color: #5b6472;
-    }
-
-    ul {
-      display: grid;
-      gap: 12px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    a {
-      display: block;
-      padding: 16px 18px;
-      border: 1px solid #d8dee9;
-      border-radius: 8px;
-      color: #075985;
-      background: #fff;
-      text-decoration: none;
-      font-weight: 700;
-    }
-
-    a:hover,
-    a:focus {
-      border-color: #0ea5e9;
-      color: #0369a1;
-    }
+    body { margin: 0; padding: 32px; }
+    main { max-width: 860px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: 32px; line-height: 1.2; }
+    p { margin: 0 0 24px; color: #5b6472; }
+    ul { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
+    li { display: flex; gap: 10px; align-items: center; background: #fff; padding: 16px 18px; border: 1px solid #d8dee9; border-radius: 8px; }
+    .report-title { flex-grow: 1; font-weight: 700; color: #075985; word-break: break-all; }
+    a { text-decoration: none; color: #0ea5e9; font-weight: bold; white-space: nowrap; }
+    a:hover { color: #0369a1; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -64,8 +27,22 @@
     <h1>Automation Reports</h1>
     <p>Latest generated report files.</p>
     <ul>
-      <li><a href="AutomationReport_storymaker_20260601_155055.html">Open HTML report</a></li>
-      <li><a href="AutomationReport_storymaker_20260601_155055.pdf">Open PDF report</a></li>
+      <li>
+        <span class="report-title">AutomationReport_storymaker_20260601_155055</span>
+        <a href="AutomationReport_storymaker_20260601_155055.html">HTML</a> | <a href="AutomationReport_storymaker_20260601_155055.pdf">PDF</a>
+      </li>
+      <li>
+        <span class="report-title">AutomationReport_storymaker_20260601_153049</span>
+        <a href="AutomationReport_storymaker_20260601_153049.html">HTML</a> | <a href="AutomationReport_storymaker_20260601_153049.pdf">PDF</a>
+      </li>
+      <li>
+        <span class="report-title">AutomationReport_20260519_141308</span>
+        <a href="AutomationReport_20260519_141308.html">HTML</a> | <a href="AutomationReport_20260519_141308.pdf">PDF</a> | <a href="ExecutionLog_20260519_141308.log">LOG</a>
+      </li>
+      <li>
+        <span class="report-title">AutomationReport_20260519_135113</span>
+        <a href="AutomationReport_20260519_135113.html">HTML</a> | <a href="AutomationReport_20260519_135113.pdf">PDF</a> | <a href="ExecutionLog_20260519_135113.log">LOG</a>
+      </li>
     </ul>
   </main>
 </body>
